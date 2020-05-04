@@ -6,9 +6,9 @@ h1 {
   padding-bottom: 15px;
 }
 
-.forms {
-  margin: 40px;
-}
+// .forms {
+//   margin: 40px;
+// }
 
 .container {
   margin: 25px;
@@ -30,4 +30,37 @@ h1 {
 
 .link {
   margin-top: 25px;
+}
+
+.search-form-control {
+  position: relative;
+}
+
+.search-form-control .btn {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  right: 8px;
+}
+
+.search-form-control .form-control {
+  height: 3.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid #E7E7E7;
+}
+
+
+.btn-flat {
+  border: 1px solid #1EDD88;
+  outline: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%)
+}
+
+.btn-flat:hover { background-position: right center; 
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
 }
